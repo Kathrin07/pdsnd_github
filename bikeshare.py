@@ -2,12 +2,12 @@ import time
 import pandas as pd
 import numpy as np
 
-
+# global variable for function load_data.
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-# variable for the index of the months list to get the corresponding month as integer
+# global variable for the index of the months list to get the corresponding month as integer
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 
 def get_filters():
